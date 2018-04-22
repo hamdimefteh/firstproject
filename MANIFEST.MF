@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: com.hamdi.quiz
+Main-Class: com.hamdi.quiz.Runner
+
