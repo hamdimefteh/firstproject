@@ -1,4 +1,51 @@
 Manifest-Version: 1.0
-Class-Path: com.hamdi.quiz
+Class-Path: jline-3.4.0.jar slf4j-api-1.7.25.jar AppleJavaExtensions-1
+ .4.jar log4j-to-slf4j-2.10.0.jar spring-jdbc-5.0.5.RELEASE.jar spring
+ -boot-actuator-autoconfigure-2.0.1.RELEASE.jar spring-boot-autoconfig
+ ure-2.0.1.RELEASE.jar spring-shell-standard-2.0.0.RELEASE.jar spring-
+ aspects-5.0.5.RELEASE.jar jackson-databind-2.9.5.jar spring-boot-star
+ ter-validation-2.0.1.RELEASE.jar spring-boot-starter-data-rest-2.0.1.
+ RELEASE.jar spring-webmvc-5.0.5.RELEASE.jar spring-boot-starter-web-2
+ .0.0.RELEASE.jar spring-tx-5.0.5.RELEASE.jar micrometer-core-1.0.3.ja
+ r logback-classic-1.2.3.jar LatencyUtils-2.0.3.jar jFormatString-2.0.
+ 1.jar HikariCP-2.7.8.jar bcel-findbugs-6.0.jar HdrHistogram-2.1.10.ja
+ r spring-shell-starter-2.0.0.RELEASE.jar spring-shell-table-2.0.0.REL
+ EASE.jar commons-lang-2.6.jar jackson-core-2.9.5.jar spring-boot-2.0.
+ 1.RELEASE.jar classmate-1.3.4.jar hibernate-core-5.2.16.Final.jar spr
+ ing-data-rest-core-3.0.6.RELEASE.jar jline-terminal-3.4.0.jar asm-tre
+ e-5.0.2.jar spring-boot-starter-tomcat-2.0.1.RELEASE.jar jna-4.5.1.ja
+ r tomcat-embed-el-8.5.29.jar spring-security-config-5.0.4.RELEASE.jar
+  evo-inflector-1.2.2.jar tomcat-embed-websocket-8.5.29.jar spring-boo
+ t-configuration-processor-2.0.1.RELEASE.jar spring-javaconfig-1.0.0.m
+ 3.jar dom4j-1.6.1.jar spring-shell-standard-commands-2.0.0.RELEASE.ja
+ r jline-terminal-jna-3.4.0.jar xml-apis-1.4.01.jar spring-core-5.0.5.
+ RELEASE.jar hibernate-validator-6.0.9.Final.jar jackson-datatype-jdk8
+ -2.9.5.jar log4j-1.2.12.jar hibernate-jpa-2.1-api-1.0.0.Final.jar spr
+ ing-data-rest-webmvc-3.0.6.RELEASE.jar spring-hateoas-0.24.0.RELEASE.
+ jar jcip-annotations-1.0.jar log4j-api-2.10.0.jar jsr305-2.0.1.jar fi
+ ndbugs-3.0.1.jar spring-web-5.0.5.RELEASE.jar jackson-annotations-2.9
+ .0.jar spring-boot-starter-data-jpa-2.0.1.RELEASE.jar jjwt-0.9.0.jar 
+ validation-api-2.0.1.Final.jar javax.transaction-api-1.2.jar javassis
+ t-3.22.0-GA.jar mysql-connector-java-5.1.46.jar spring-data-commons-2
+ .0.6.RELEASE.jar spring-shell-shell1-adapter-2.0.0.RELEASE.jar cglib-
+ nodep-2.1_3.jar spring-security-core-5.0.4.RELEASE.jar jackson-module
+ -parameter-names-2.9.5.jar spring-boot-devtools-2.0.1.RELEASE.jar spr
+ ing-context-5.0.5.RELEASE.jar commons-logging-1.1.jar spring-aop-5.0.
+ 5.RELEASE.jar jackson-datatype-jsr310-2.9.5.jar spring-security-web-5
+ .0.4.RELEASE.jar snakeyaml-1.19.jar asm-5.0.2.jar spring-boot-starter
+ -actuator-2.0.1.RELEASE.jar spring-shell-jcommander-adapter-2.0.0.REL
+ EASE.jar spring-data-jpa-2.0.6.RELEASE.jar spring-boot-starter-jdbc-2
+ .0.1.RELEASE.jar spring-beans-5.0.5.RELEASE.jar jul-to-slf4j-1.7.25.j
+ ar spring-shell-core-2.0.0.RELEASE.jar spring-data-rest-hal-browser-3
+ .0.6.RELEASE.jar spring-boot-starter-json-2.0.1.RELEASE.jar aspectjwe
+ aver-1.8.13.jar jandex-2.0.3.Final.jar jboss-logging-3.3.2.Final.jar 
+ spring-plugin-core-1.2.0.RELEASE.jar spring-boot-starter-security-2.0
+ .1.RELEASE.jar tomcat-embed-core-8.5.29.jar asm-debug-all-5.0.2.jar s
+ pring-boot-actuator-2.0.1.RELEASE.jar jaxen-1.1.6.jar javax.annotatio
+ n-api-1.3.2.jar spring-boot-starter-logging-2.0.1.RELEASE.jar spring-
+ expression-5.0.5.RELEASE.jar spring-orm-5.0.5.RELEASE.jar hibernate-c
+ ommons-annotations-5.0.1.Final.jar logback-core-1.2.3.jar spring-jcl-
+ 5.0.5.RELEASE.jar spring-boot-starter-aop-2.0.1.RELEASE.jar antlr-2.7
+ .7.jar asm-commons-5.0.2.jar spring-boot-starter-2.0.1.RELEASE.jar
 Main-Class: com.hamdi.quiz.Runner
 
