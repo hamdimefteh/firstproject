@@ -1,8 +1,13 @@
 package com.hamdi.quiz.config;
-import org.springframework.web.filter.CorsFilter;
-import org.springframework.boot.web.servlet.FilterRegistrationBean;
+
+import com.hamdi.quiz.security.JwtAuthenticationEntryPoint;
+import com.hamdi.quiz.security.JwtAuthorizationTokenFilter;
+import com.hamdi.quiz.security.JwtTokenUtil;
+import com.hamdi.quiz.security.service.JwtUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -17,12 +22,9 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import com.hamdi.quiz.security.JwtAuthenticationEntryPoint;
-import com.hamdi.quiz.security.JwtAuthorizationTokenFilter;
-import com.hamdi.quiz.security.JwtTokenUtil;
-import com.hamdi.quiz.security.service.JwtUserDetailsService;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.web.filter.CorsFilter;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
