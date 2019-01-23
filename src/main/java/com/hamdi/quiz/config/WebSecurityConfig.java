@@ -45,7 +45,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Value("${jwt.route.authentication.path}")
     private String authenticationPath;
 
-   
+   private String inscriptionPath = "/inscription/**";
 
 
     @Autowired
@@ -83,6 +83,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 
                 .antMatchers("/auth/**").permitAll()
+                .antMatchers("/admin/**").hasAnyAuthority("ROLE_ADMIN")
                 .anyRequest().authenticated();
 
         // Custom JWT based security filter
@@ -105,6 +106,10 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(
                         HttpMethod.POST,
                         authenticationPath
+                )
+                .antMatchers(
+                        HttpMethod.POST,
+                        inscriptionPath
                 )
 
                 // allow anonymous resource requests

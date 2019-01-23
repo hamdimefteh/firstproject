@@ -2,6 +2,8 @@ package com.hamdi.quiz.security.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,7 +16,7 @@ import com.hamdi.quiz.security.JwtUser;
 
 @RestController
 public class UserRestController {
-
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
     @Value("${jwt.header}")
     private String tokenHeader;
 
@@ -32,5 +34,9 @@ public class UserRestController {
         JwtUser user = (JwtUser) userDetailsService.loadUserByUsername(username);
         return user;
     }
+
+
+
+
 
 }

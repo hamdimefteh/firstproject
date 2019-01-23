@@ -1,0 +1,59 @@
+**************************************
+*       Fontasia International       *
+**************************************
+
+Font name:         Kosovo Target BC
+Designer:          Bart Claeys
+First release:     16 April 1999
+Characters:        a-z, A-Z, 0-9, !$%&()+.,:;=
+
+No punctation marks included.
+
+!	->	plane
+$	->	American flag
+%	->	destroy - attack
+&	->	plane-earth symbol
+(	->	war stamp
+)	->	army stamp
++	->	target symbol
+.	->	word bold: "target"
+,	->	word normal: "target"
+:	->	NATO symbol
+;	->	Yugoslavia symbol
+=	->	USA peace corps
+
+
+Kosovo Target BC is a combination of
+Courier Bold and a target symbol created
+with Coreldraw 8.
+The other graphix are all of Coreldraw.
+
+Send this font to your friends, post it
+at newsgroups, use it in publications, etc.
+
+Send your comments to:
+
+ fontasia@writeme.com
+ http://titan.glo.be/barclaey/fontasia.html
+
+ Greetings,
+ Maestro Cicero
+
+
+Donations
+---------
+
+I prefer you donate an organization that
+helps kosovo refugees in these hard times.
+
+
+Bart Claeys (netmail)
+Ellebogtenstraat 36
+B-9070 Destelbergen
+Oost-Vlaanderen
+Belgium
+Europe
+
+---------------------------------------------
+Fontasia International is a division of
+BarClaey International http://fly.to/barclaey

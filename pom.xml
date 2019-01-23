@@ -6,7 +6,7 @@
     <groupId>com.hamdi</groupId>
     <artifactId>quiz</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>quiz</name>
     <description>quiz project for Spring Boot</description>
@@ -158,7 +158,7 @@
                 <version>3.0.0</version>
                 <configuration>
                     <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                        <descriptorRef>war-with-dependencies</descriptorRef>
                     </descriptorRefs>
                     <archive>
                         <manifest>
@@ -176,6 +176,7 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
 

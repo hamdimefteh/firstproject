@@ -1,6 +1,8 @@
 package com.hamdi.quiz.model.security;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.Date;
 import java.util.List;
 
@@ -55,6 +57,8 @@ public class User {
     @Size(min = 4, max = 50)
     private String email;
 
+
+
     @Column(name = "ENABLED")
     @NotNull
     private Boolean enabled;
@@ -64,11 +68,58 @@ public class User {
     @NotNull
     private Date lastPasswordResetDate;
 
+
+
+    @Column(name = "USERTEL")
+    @NotNull
+    private String usertel;
+
+
+    @Column(name = "USERDATE")
+
+    private Date userdate;
+
+
+    @Column(name = "USERADRESSE")
+    @NotNull
+    private String useradresse;
+
+
+    public String getUsertel() {
+        return usertel;
+    }
+
+    public void setUsertel(String usertel) {
+        this.usertel = usertel;
+    }
+
+
+
+    public String getUseradresse() {
+        return useradresse;
+    }
+
+    public Date getUserdate() {
+        return userdate;
+    }
+
+    public void setUserdate(Date userdate) {
+        this.userdate = userdate;
+    }
+
+    public void setUseradresse(String useradresse) {
+        this.useradresse = useradresse;
+    }
+
+
     @ManyToMany(fetch = FetchType.EAGER)
+
+
     @JoinTable(
             name = "USER_AUTHORITY",
             joinColumns = {@JoinColumn(name = "USER_ID", referencedColumnName = "ID")},
             inverseJoinColumns = {@JoinColumn(name = "AUTHORITY_ID", referencedColumnName = "ID")})
+
     private List<Authority> authorities;
 
     public Long getId() {
@@ -119,6 +170,7 @@ public class User {
         this.email = email;
     }
 
+
     public Boolean getEnabled() {
         return enabled;
     }
@@ -142,4 +194,6 @@ public class User {
     public void setLastPasswordResetDate(Date lastPasswordResetDate) {
         this.lastPasswordResetDate = lastPasswordResetDate;
     }
+
+
 }

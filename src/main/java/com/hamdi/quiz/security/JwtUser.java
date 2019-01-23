@@ -20,9 +20,13 @@ public class JwtUser implements UserDetails {
     private final String lastname;
     private final String password;
     private final String email;
+
+
     private final Collection<? extends GrantedAuthority> authorities;
     private final boolean enabled;
     private final Date lastPasswordResetDate;
+
+
 
     public JwtUser(
             Long id,
@@ -30,6 +34,7 @@ public class JwtUser implements UserDetails {
             String firstname,
             String lastname,
             String email,
+
             String password, Collection<? extends GrantedAuthority> authorities,
             boolean enabled,
             Date lastPasswordResetDate
@@ -90,6 +95,7 @@ public class JwtUser implements UserDetails {
     public String getPassword() {
         return password;
     }
+
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
